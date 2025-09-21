@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using QLCuaHangNoiThat.Controller;
 
 namespace QLCuaHangNoiThat
@@ -21,6 +20,7 @@ namespace QLCuaHangNoiThat
 
         private void FAdmin_Load(object sender, EventArgs e)
         {
+
         }
 
         private void btn_overview_Click(object sender, EventArgs e)
@@ -31,6 +31,11 @@ namespace QLCuaHangNoiThat
         private void btn_detail_Click(object sender, EventArgs e)
         {
             ucCustomer.BringToFront();
+        }
+
+        private void btn_coupon_Click(object sender, EventArgs e)
+        {
+            ucCoupon.BringToFront();
         }
     }
 }

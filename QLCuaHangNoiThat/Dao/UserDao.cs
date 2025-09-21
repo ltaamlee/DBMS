@@ -32,7 +32,7 @@ namespace QLCuaHangNoiThat.Dao
         public bool CheckActive(string username)
         {
             using (SqlConnection conn = new SqlConnection(con))
-            using (SqlCommand cmd = new SqlCommand("SELECT TrangThai FROM [User] WHERE TenDN = @username", conn))
+            using (SqlCommand cmd = new SqlCommand("select TrangThai from [User] where TenDN = @username", conn))
             {
                 cmd.Parameters.AddWithValue("@username", username);
                 conn.Open();

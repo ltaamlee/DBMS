@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLCuaHangNoiThat.Controller
+namespace QLCuaHangNoiThat
 {
-    public partial class UCContact : UserControl
+    public partial class Formk1 : Form
     {
-        public UCContact()
+        public Formk1()
         {
             InitializeComponent();
         }

@@ -16,6 +16,8 @@ namespace QLCuaHangNoiThat.Model
         public string GioiTinh { get; set; }     
         public string MaLoai { get; set; }        
         public DateTime NgayDangKy { get; set; }  
+
+        public int DiemTL {  get; set; }
         public List<Customer> customers { get; set; }
     }
 }

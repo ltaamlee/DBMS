@@ -20,6 +20,14 @@ namespace QLCuaHangNoiThat
         private void FEmployee_Load(object sender, EventArgs e)
         {
             btn_overview.Visible = false;
+            //ucCustomer.btn_delete.Visible = false;
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FLogin fLogin = new FLogin();
+            fLogin.Show();
         }
     }
 }

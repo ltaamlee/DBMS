@@ -11,5 +11,7 @@ namespace QLCuaHangNoiThat.Model
         public string MaLoai { get; set; }    
         public string TenLoai { get; set; }  
         public string MoTa { get; set; }
+        public int DiemToiThieu { get; set; }
+        public int DiemToiDa {  get; set; }
     }
 }

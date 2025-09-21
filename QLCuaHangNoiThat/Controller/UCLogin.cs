@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QLCuaHangNoiThat.Dao;
+using QLCuaHangNoiThat.Service;
 using QLCuaHangNoiThat.Model;
 
 namespace QLCuaHangNoiThat.Controller
@@ -19,7 +19,7 @@ namespace QLCuaHangNoiThat.Controller
             InitializeComponent();
         }
 
-        private UserDao userDao = new UserDao();
+        private UserService userService = new UserService();
         private void UCLogin_Load(object sender, EventArgs e)
         {
 
@@ -27,12 +27,12 @@ namespace QLCuaHangNoiThat.Controller
 
         public string Login(string username, string password, string role)
         {
-            return userDao.Login(username, password, role);
+            return userService.Login(username, password, role);
         }
 
         public bool CheckActive(string username)
         {
-            return userDao.CheckActive(username);
+            return userService.CheckActive(username);
         }
     }
 }

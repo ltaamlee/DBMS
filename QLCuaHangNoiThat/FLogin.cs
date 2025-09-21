@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace QLCuaHangNoiThat
 {
     public partial class FLogin : Form
@@ -81,7 +82,6 @@ namespace QLCuaHangNoiThat
                         FEmployee fEmployee = new FEmployee();
                         fEmployee.ShowDialog();
                     }
-                    this.Show();
                 }
             }
             else

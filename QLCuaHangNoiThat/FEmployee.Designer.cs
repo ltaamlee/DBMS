@@ -29,90 +29,209 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_support = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_transaction = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_coupon = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_logout = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.btn_detail = new Guna.UI2.WinForms.Guna2Button();
             this.btn_overview = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2Button4);
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.guna2Button3);
+            this.guna2Panel1.Controls.Add(this.btn_support);
+            this.guna2Panel1.Controls.Add(this.btn_transaction);
+            this.guna2Panel1.Controls.Add(this.btn_coupon);
+            this.guna2Panel1.Controls.Add(this.btn_logout);
+            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
+            this.guna2Panel1.Controls.Add(this.btn_detail);
             this.guna2Panel1.Controls.Add(this.btn_overview);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(275, 639);
-            this.guna2Panel1.TabIndex = 4;
+            this.guna2Panel1.Size = new System.Drawing.Size(377, 1033);
+            this.guna2Panel1.TabIndex = 8;
             // 
-            // guna2Button4
+            // btn_support
             // 
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(35, 548);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.Text = "Đăng xuất";
+            this.btn_support.Animated = true;
+            this.btn_support.AutoRoundedCorners = true;
+            this.btn_support.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_support.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_support.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_support.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_support.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_support.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_support.ForeColor = System.Drawing.Color.Black;
+            this.btn_support.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_support.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_support.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_support.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_support.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_support.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_support.IndicateFocus = true;
+            this.btn_support.Location = new System.Drawing.Point(35, 571);
+            this.btn_support.Name = "btn_support";
+            this.btn_support.Size = new System.Drawing.Size(318, 63);
+            this.btn_support.TabIndex = 8;
+            this.btn_support.Text = "Chăm sóc";
+            this.btn_support.TextOffset = new System.Drawing.Point(10, 0);
             // 
-            // guna2Button2
+            // btn_transaction
             // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(35, 262);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button2.TabIndex = 1;
-            this.guna2Button2.Text = "Chăm sóc khách hàng";
+            this.btn_transaction.Animated = true;
+            this.btn_transaction.AutoRoundedCorners = true;
+            this.btn_transaction.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_transaction.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_transaction.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_transaction.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_transaction.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_transaction.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_transaction.ForeColor = System.Drawing.Color.Black;
+            this.btn_transaction.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_transaction.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_transaction.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_transaction.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_transaction.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_transaction.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_transaction.IndicateFocus = true;
+            this.btn_transaction.Location = new System.Drawing.Point(35, 371);
+            this.btn_transaction.Name = "btn_transaction";
+            this.btn_transaction.Size = new System.Drawing.Size(318, 63);
+            this.btn_transaction.TabIndex = 7;
+            this.btn_transaction.Text = "Giao dịch";
+            this.btn_transaction.TextOffset = new System.Drawing.Point(10, 0);
             // 
-            // guna2Button3
+            // btn_coupon
             // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(35, 184);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button3.TabIndex = 2;
-            this.guna2Button3.Text = "Chi tiết khách hàng";
+            this.btn_coupon.Animated = true;
+            this.btn_coupon.AutoRoundedCorners = true;
+            this.btn_coupon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_coupon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_coupon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_coupon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_coupon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_coupon.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_coupon.ForeColor = System.Drawing.Color.Black;
+            this.btn_coupon.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_coupon.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_coupon.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_coupon.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_coupon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_coupon.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_coupon.IndicateFocus = true;
+            this.btn_coupon.Location = new System.Drawing.Point(35, 473);
+            this.btn_coupon.Name = "btn_coupon";
+            this.btn_coupon.Size = new System.Drawing.Size(318, 63);
+            this.btn_coupon.TabIndex = 6;
+            this.btn_coupon.Text = "Ưu đãi";
+            this.btn_coupon.TextOffset = new System.Drawing.Point(10, 0);
+            // 
+            // btn_logout
+            // 
+            this.btn_logout.Animated = true;
+            this.btn_logout.AutoRoundedCorners = true;
+            this.btn_logout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_logout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_logout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_logout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_logout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_logout.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_logout.ForeColor = System.Drawing.Color.Black;
+            this.btn_logout.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_logout.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_logout.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_logout.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_logout.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_logout.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_logout.IndicateFocus = true;
+            this.btn_logout.Location = new System.Drawing.Point(35, 715);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.Size = new System.Drawing.Size(318, 63);
+            this.btn_logout.TabIndex = 5;
+            this.btn_logout.Text = "Đăng xuất";
+            this.btn_logout.TextOffset = new System.Drawing.Point(10, 0);
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::QLCuaHangNoiThat.Properties.Resources.logo1;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(140, 30);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(109, 100);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 4;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // btn_detail
+            // 
+            this.btn_detail.Animated = true;
+            this.btn_detail.AutoRoundedCorners = true;
+            this.btn_detail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_detail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_detail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_detail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_detail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_detail.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_detail.ForeColor = System.Drawing.Color.Black;
+            this.btn_detail.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_detail.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_detail.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_detail.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_detail.Image = global::QLCuaHangNoiThat.Properties.Resources.CM;
+            this.btn_detail.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_detail.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_detail.IndicateFocus = true;
+            this.btn_detail.Location = new System.Drawing.Point(35, 270);
+            this.btn_detail.Name = "btn_detail";
+            this.btn_detail.Size = new System.Drawing.Size(318, 63);
+            this.btn_detail.TabIndex = 2;
+            this.btn_detail.Text = "Thông tin";
+            this.btn_detail.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // btn_overview
             // 
+            this.btn_overview.Animated = true;
+            this.btn_overview.AutoRoundedCorners = true;
             this.btn_overview.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_overview.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_overview.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_overview.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_overview.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_overview.ForeColor = System.Drawing.Color.White;
-            this.btn_overview.Location = new System.Drawing.Point(35, 101);
+            this.btn_overview.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_overview.Font = new System.Drawing.Font("Montserrat SemiBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_overview.ForeColor = System.Drawing.Color.Black;
+            this.btn_overview.HoverState.BorderColor = System.Drawing.Color.Maroon;
+            this.btn_overview.HoverState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_overview.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_overview.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.Home2;
+            this.btn_overview.Image = global::QLCuaHangNoiThat.Properties.Resources.overview;
+            this.btn_overview.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_overview.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_overview.IndicateFocus = true;
+            this.btn_overview.Location = new System.Drawing.Point(35, 177);
             this.btn_overview.Name = "btn_overview";
-            this.btn_overview.Size = new System.Drawing.Size(180, 45);
+            this.btn_overview.Size = new System.Drawing.Size(318, 63);
             this.btn_overview.TabIndex = 0;
             this.btn_overview.Text = "Tổng quan";
+            this.btn_overview.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // FEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1125, 610);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "FEmployee";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FEmployee";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FEmployee_Load);
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -120,9 +239,12 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btn_support;
+        private Guna.UI2.WinForms.Guna2Button btn_transaction;
+        private Guna.UI2.WinForms.Guna2Button btn_coupon;
+        private Guna.UI2.WinForms.Guna2Button btn_logout;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2Button btn_detail;
         private Guna.UI2.WinForms.Guna2Button btn_overview;
     }
 }
