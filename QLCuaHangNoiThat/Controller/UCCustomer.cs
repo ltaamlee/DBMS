@@ -9,11 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using QLCuaHangNoiThat.Service;
+using System.Windows.Documents;
+using System.Windows.Input;
+using QLCuaHangNoiThat.Model;
 
 namespace QLCuaHangNoiThat.Controller
 {
     public partial class UCCustomer : UserControl
     {
+        private CustomerService customerService = new CustomerService();
+
         public UCCustomer()
         {
             InitializeComponent();
@@ -21,8 +26,8 @@ namespace QLCuaHangNoiThat.Controller
 
         public void LoadData()
         {
-            CustomerService customerService = new CustomerService();
-            var list = customerService.GetAll(); 
+            var list = customerService.GetAll();
+            dgv_customer.AutoGenerateColumns = false;
             dgv_customer.DataSource = list;
         }
 
@@ -30,23 +35,16 @@ namespace QLCuaHangNoiThat.Controller
         {
             LoadData();
         }
-        private void dgv_customer_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
-        {
-            dgv_customer.Rows[e.RowIndex].Cells["STT"].Value = (e.RowIndex + 1).ToString();
-        }
 
-        private void dgv_customer_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-        }
         public void LoadFilterType()
         {
-            CustomerService customerService = new CustomerService();
-            DataTable dt = customerService.LoadCustomerType();
+            //CustomerService customerService = new CustomerService();
+            //DataTable dt = customerService.LoadCustomerType();
 
-            cbb_filter.DataSource = dt;
-            cbb_filter.DisplayMember = "TenLoai";
-            cbb_filter.ValueMember = "MaLoai";
-            cbb_filter.SelectedIndex = -1;
+            //cbb_filter.DataSource = dt;
+            //cbb_filter.DisplayMember = "TenLoai";
+            //cbb_filter.ValueMember = "MaLoai";
+            //cbb_filter.SelectedIndex = -1;
         }
         private void cbb_filter_DropDown(object sender, EventArgs e)
         {
@@ -55,14 +53,14 @@ namespace QLCuaHangNoiThat.Controller
 
         private void cbb_filter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbb_filter.SelectedIndex != -1)
-            {
-                string loaikh = cbb_filter.SelectedValue.ToString();
-                CustomerService customerService = new CustomerService();
-                var list = customerService.GetByType(loaikh);
-                dgv_customer.DataSource = list;
-            }
-            else LoadData();
+            //if (cbb_filter.SelectedIndex != -1)
+            //{
+            //    string loaikh = cbb_filter.SelectedValue.ToString();
+            //    CustomerService customerService = new CustomerService();
+            //    var list = customerService.GetByType(loaikh);
+            //    dgv_customer.DataSource = list;
+            //}
+            //else LoadData();
         }
 
         // Thêm mới khách hàng
@@ -73,27 +71,17 @@ namespace QLCuaHangNoiThat.Controller
 
         private void Reset()
         {
-            //txt_id.Text = "";
-            //txt_email.ResetText();
-            //txt_name.ResetText();
-            //txt_address.ResetText();
-            //txt_phone.ResetText();
             txt_search.ResetText();
 
             cbb_filter.SelectedIndex = -1;
             cbb_filter.Text = string.Empty;
 
-            //cbb_sex.SelectedIndex = -1;
-            //cbb_sex.Text = string.Empty;
-
-            //cbb_type.SelectedIndex = -1;
-            //cbb_type.Text = string.Empty;
-
             dgv_customer.ClearSelection();
         }
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            Reset();
+            FCalendar fCalendar = new FCalendar();
+            fCalendar.ShowDialog();
         }
 
         private void btn_update_Click(object sender, EventArgs e)
@@ -123,14 +111,49 @@ namespace QLCuaHangNoiThat.Controller
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            string sdt = txt_search.Text.Trim();
-            CustomerService customerService = new CustomerService();
-            var list = customerService.SearchByPhone(sdt);
-            dgv_customer.DataSource = list;
-            if (list.Count == 0)
+            string keyword = txt_search.Text.Trim();
+            List<Customer> list = new List<Customer>();
+
+            if (long.TryParse(keyword, out _))
             {
-                MessageBox.Show("Không tìm thấy khách hàng với số điện thoại đã nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                LoadData();
+                list = customerService.SearchByPhone(keyword);
+                if (list.Count == 0)
+                {
+                    MessageBox.Show("Không tìm thấy khách hàng với số điện thoại đã nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadData();
+                    return;
+                }
+            }
+            else
+            {
+                list = customerService.SearchByName(keyword);
+                if (list.Count == 0)
+                {
+                    MessageBox.Show("Không tìm thấy khách hàng với tên đã nhập!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadData();
+                    return;
+                }
+            }
+
+            dgv_customer.DataSource = list;
+        }
+
+        private void dgv_customer_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
+        {
+            dgv_customer.Rows[e.RowIndex].Cells["STT"].Value = (e.RowIndex + 1).ToString();
+        }
+
+        private void dgv_customer_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                if (dgv_customer.Columns[e.ColumnIndex].Name == "ChiTiet")
+                {
+                    string makh = dgv_customer.Rows[e.RowIndex].Cells["MaKH"].Value.ToString();
+                    FCustomerDetails fCustomerDetail = new FCustomerDetails(makh);
+                    fCustomerDetail.ShowDialog();
+                    LoadData();
+                }
             }
         }
     }

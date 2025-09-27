@@ -3,20 +3,96 @@
   "WorkspaceRootPath": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\uccoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\uccoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\ucoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\ucoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\uccoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\uccoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\ucsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\ucsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\uccustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\uccustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\uccustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\uccustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\fcustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:fcustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\fcustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:fcustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\config\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:config\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\productwarranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\productwarranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|d:\\2025-2026\\hk1\\hqtcsdl\\qlcuahangnoithat\\controller\\ucproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B6FB19-8074-4A76-AB19-720629B03295}|QLCuaHangNoiThat.csproj|solutionrelative:controller\\ucproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,53 +130,297 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UCCoupon.cs",
-              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCoupon.cs",
-              "RelativeDocumentMoniker": "Controller\\UCCoupon.cs",
-              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCoupon.cs",
-              "RelativeToolTip": "Controller\\UCCoupon.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwCQAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:02:30.278Z",
+              "WhenOpened": "2025-09-27T16:13:33.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCCoupon.cs [Design]",
-              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCoupon.cs",
-              "RelativeDocumentMoniker": "Controller\\UCCoupon.cs",
-              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCoupon.cs [Design]",
-              "RelativeToolTip": "Controller\\UCCoupon.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "UCOverview.cs [Design]",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCOverview.cs",
+              "RelativeDocumentMoniker": "Controller\\UCOverview.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCOverview.cs [Design]",
+              "RelativeToolTip": "Controller\\UCOverview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:02:27.676Z",
+              "WhenOpened": "2025-09-27T15:49:14.014Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UCSupport.cs [Design]",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCSupport.cs",
+              "RelativeDocumentMoniker": "Controller\\UCSupport.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCSupport.cs [Design]",
+              "RelativeToolTip": "Controller\\UCSupport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:39:25.85Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Service\\CustomerService.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Service\\CustomerService.cs",
+              "RelativeToolTip": "Service\\CustomerService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:01:25.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FAdmin.cs",
               "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FAdmin.cs",
               "RelativeDocumentMoniker": "FAdmin.cs",
               "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FAdmin.cs",
               "RelativeToolTip": "FAdmin.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:01:48.15Z",
+              "WhenOpened": "2025-09-27T14:46:53.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FAdmin.cs",
-              "RelativeDocumentMoniker": "FAdmin.cs",
-              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FAdmin.cs [Design]",
-              "RelativeToolTip": "FAdmin.cs [Design]",
+              "Title": "CustomerDao.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Dao\\CustomerDao.cs",
+              "RelativeDocumentMoniker": "Dao\\CustomerDao.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Dao\\CustomerDao.cs",
+              "RelativeToolTip": "Dao\\CustomerDao.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAEwHIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:00:55.835Z",
+              "WhenOpened": "2025-09-27T13:37:22.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UCCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCustomer.cs",
+              "RelativeDocumentMoniker": "Controller\\UCCustomer.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCustomer.cs [Design]",
+              "RelativeToolTip": "Controller\\UCCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:32:33.323Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCCustomer.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCustomer.cs",
+              "RelativeDocumentMoniker": "Controller\\UCCustomer.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCCustomer.cs",
+              "RelativeToolTip": "Controller\\UCCustomer.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAADgv30AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:47:57.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FCustomerDetails.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FCustomerDetails.cs",
+              "RelativeDocumentMoniker": "FCustomerDetails.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FCustomerDetails.cs",
+              "RelativeToolTip": "FCustomerDetails.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:31:57.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FCustomerDetails.cs [Design]",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FCustomerDetails.cs",
+              "RelativeDocumentMoniker": "FCustomerDetails.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\FCustomerDetails.cs [Design]",
+              "RelativeToolTip": "FCustomerDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:31:55.55Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:37:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UCProduct.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.cs",
+              "RelativeDocumentMoniker": "Controller\\UCProduct.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.cs",
+              "RelativeToolTip": "Controller\\UCProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:48:53.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerType.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\CustomerType.cs",
+              "RelativeDocumentMoniker": "Model\\CustomerType.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\CustomerType.cs",
+              "RelativeToolTip": "Model\\CustomerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:27:24.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Config\\DBConnect.cs",
+              "RelativeDocumentMoniker": "Config\\DBConnect.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Config\\DBConnect.cs",
+              "RelativeToolTip": "Config\\DBConnect.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:55:16.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UCProduct.cs [Design]",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.cs",
+              "RelativeDocumentMoniker": "Controller\\UCProduct.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.cs [Design]",
+              "RelativeToolTip": "Controller\\UCProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:48:51.678Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductService.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Service\\ProductService.cs",
+              "RelativeToolTip": "Service\\ProductService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAArwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:49:46.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductWarranty.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\ProductWarranty.cs",
+              "RelativeDocumentMoniker": "Model\\ProductWarranty.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\ProductWarranty.cs",
+              "RelativeToolTip": "Model\\ProductWarranty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:14:12.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDao.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Dao\\UserDao.cs",
+              "RelativeDocumentMoniker": "Dao\\UserDao.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Dao\\UserDao.cs",
+              "RelativeToolTip": "Dao\\UserDao.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:37:19.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\Category.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Category.cs",
+              "RelativeToolTip": "Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:13:52.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Warranty.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Warranty.cs",
+              "RelativeDocumentMoniker": "Model\\Warranty.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Warranty.cs",
+              "RelativeToolTip": "Model\\Warranty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:13:56.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:13:48.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:13:46.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UCProduct.Designer.cs",
+              "DocumentMoniker": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.Designer.cs",
+              "RelativeDocumentMoniker": "Controller\\UCProduct.Designer.cs",
+              "ToolTip": "D:\\2025-2026\\HK1\\HQTCSDL\\QLCuaHangNoiThat\\Controller\\UCProduct.Designer.cs",
+              "RelativeToolTip": "Controller\\UCProduct.Designer.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAwNQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:04:59.928Z",
+              "EditorCaption": ""
             }
           ]
         }

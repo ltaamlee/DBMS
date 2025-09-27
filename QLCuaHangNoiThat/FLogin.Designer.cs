@@ -30,8 +30,6 @@
         {
             this.btn_login = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.rbtn_admin = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.rbtn_emp = new Guna.UI2.WinForms.Guna2RadioButton();
             this.btn_show = new Guna.UI2.WinForms.Guna2Button();
             this.txt_username = new Guna.UI2.WinForms.Guna2TextBox();
             this.btn_hide = new Guna.UI2.WinForms.Guna2Button();
@@ -70,44 +68,6 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 5;
             this.guna2PictureBox1.TabStop = false;
-            // 
-            // rbtn_admin
-            // 
-            this.rbtn_admin.AutoSize = true;
-            this.rbtn_admin.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbtn_admin.CheckedState.BorderThickness = 0;
-            this.rbtn_admin.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbtn_admin.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rbtn_admin.CheckedState.InnerOffset = -4;
-            this.rbtn_admin.Font = new System.Drawing.Font("Montserrat Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtn_admin.Location = new System.Drawing.Point(788, 442);
-            this.rbtn_admin.Name = "rbtn_admin";
-            this.rbtn_admin.Size = new System.Drawing.Size(132, 36);
-            this.rbtn_admin.TabIndex = 8;
-            this.rbtn_admin.Text = "Quản lý";
-            this.rbtn_admin.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rbtn_admin.UncheckedState.BorderThickness = 2;
-            this.rbtn_admin.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rbtn_admin.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // rbtn_emp
-            // 
-            this.rbtn_emp.AutoSize = true;
-            this.rbtn_emp.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbtn_emp.CheckedState.BorderThickness = 0;
-            this.rbtn_emp.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbtn_emp.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rbtn_emp.CheckedState.InnerOffset = -4;
-            this.rbtn_emp.Font = new System.Drawing.Font("Montserrat Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtn_emp.Location = new System.Drawing.Point(981, 442);
-            this.rbtn_emp.Name = "rbtn_emp";
-            this.rbtn_emp.Size = new System.Drawing.Size(164, 36);
-            this.rbtn_emp.TabIndex = 9;
-            this.rbtn_emp.Text = "Nhân viên";
-            this.rbtn_emp.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rbtn_emp.UncheckedState.BorderThickness = 2;
-            this.rbtn_emp.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rbtn_emp.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // btn_show
             // 
@@ -245,8 +205,6 @@
             this.Controls.Add(this.txt_username);
             this.Controls.Add(this.guna2Shapes2);
             this.Controls.Add(this.guna2Shapes1);
-            this.Controls.Add(this.rbtn_emp);
-            this.Controls.Add(this.rbtn_admin);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.txt_passwd);
             this.Controls.Add(this.guna2PictureBox1);
@@ -258,15 +216,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private Guna.UI2.WinForms.Guna2Button btn_login;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2RadioButton rbtn_admin;
-        private Guna.UI2.WinForms.Guna2RadioButton rbtn_emp;
         private Guna.UI2.WinForms.Guna2Button btn_show;
         private Guna.UI2.WinForms.Guna2TextBox txt_username;
         private Guna.UI2.WinForms.Guna2Button btn_hide;

@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,20 +35,72 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="C1.Chart, Version=8.0.20251.20, Culture=neutral, PublicKeyToken=3aa2920c09e0aefd, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Chart.8.0.20251.20\lib\netstandard2.0\C1.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.8.0.20251.721\lib\net462\C1.Win.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.C1Chart.4.8.20251.721\lib\net462\C1.Win.C1Chart.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.C1Chart.4.8.20251.721\lib\net462\C1.Win.C1Chart3D.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.C1Command.4.8.20251.721\lib\net462\C1.Win.C1Command.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1DX.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.C1DX.4.8.20251.721\lib\net462\C1.Win.C1DX.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.C1Input.4.8.20251.721\lib\net462\C1.Win.C1Input.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.FlexChart.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=3aa2920c09e0aefd, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.FlexChart.8.0.20251.721\lib\net462\C1.Win.FlexChart.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.FlexChart.Toolbar.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=3aa2920c09e0aefd, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.FlexChart.8.0.20251.721\lib\net462\C1.Win.FlexChart.Toolbar.4.6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.Ribbon.4.6.2, Version=4.6.20251.721, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>packages\C1.Win.Ribbon.8.0.20251.721\lib\net462\C1.Win.Ribbon.4.6.2.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.Charts.WinForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.Charts.WinForms.1.1.0\lib\net472\Guna.Charts.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="Syncfusion.Core.WinForms, Version=31.1462.20.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Core.WinForms.31.1.20\lib\net462\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=31.1462.20.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Licensing.31.1.20\lib\net462\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms, Version=31.1462.20.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfInput.WinForms.31.1.20\lib\net462\Syncfusion.SfInput.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=31.1462.20.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.Base.31.1.20\lib\net462\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -61,6 +115,13 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\DBConnect.cs" />
+    <Compile Include="Controller\UCProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\UCProduct.Designer.cs">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller\UCSupport.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -91,13 +152,28 @@
     <Compile Include="Controller\UCOverview.Designer.cs">
       <DependentUpon>UCOverview.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controller\UCTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\UCTransaction.Designer.cs">
+      <DependentUpon>UCTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dao\CalendarMethodDao.cs" />
+    <Compile Include="Dao\CalendarTypeDao.cs" />
     <Compile Include="Dao\CustomerDao.cs" />
+    <Compile Include="Dao\ProductDao.cs" />
     <Compile Include="Dao\UserDao.cs" />
     <Compile Include="FAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FAdmin.Designer.cs">
       <DependentUpon>FAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCalendar.Designer.cs">
+      <DependentUpon>FCalendar.cs</DependentUpon>
     </Compile>
     <Compile Include="FCoupon.cs">
       <SubType>Form</SubType>
@@ -135,10 +211,21 @@
     <Compile Include="FRegister.Designer.cs">
       <DependentUpon>FRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\Bill.cs" />
+    <Compile Include="FTransDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTransDetails.Designer.cs">
+      <DependentUpon>FTransDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CalendarMethod.cs" />
+    <Compile Include="Model\CalendarType.cs" />
+    <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\CustomerType.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductWarranty.cs" />
     <Compile Include="Model\User.cs" />
+    <Compile Include="Model\Warranty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -146,13 +233,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QLKHDataSet.Designer.cs">
+    <Compile Include="QLKH.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLKHDataSet.xsd</DependentUpon>
+      <DependentUpon>QLKH.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Service\CalendarMethodService.cs" />
+    <Compile Include="Service\CalendarTypeService.cs" />
     <Compile Include="Service\CustomerService.cs" />
+    <Compile Include="Service\ProductService.cs" />
     <Compile Include="Service\UserService.cs" />
+    <EmbeddedResource Include="Controller\UCProduct.resx">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controller\UCSupport.resx">
       <DependentUpon>UCSupport.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +260,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controller\UCOverview.resx">
       <DependentUpon>UCOverview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\UCTransaction.resx">
+      <DependentUpon>UCTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCalendar.resx">
+      <DependentUpon>FCalendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FCoupon.resx">
       <DependentUpon>FCoupon.cs</DependentUpon>
@@ -189,6 +288,9 @@
     <EmbeddedResource Include="FRegister.resx">
       <DependentUpon>FRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FTransDetails.resx">
+      <DependentUpon>FTransDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -204,17 +306,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QLKHDataSet.xsc">
-      <DependentUpon>QLKHDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="QLKHDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLKHDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QLKHDataSet.xss">
-      <DependentUpon>QLKHDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -223,6 +314,17 @@
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLKH.xsc">
+      <DependentUpon>QLKH.xsd</DependentUpon>
+    </None>
+    <None Include="QLKH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLKH.xss">
+      <DependentUpon>QLKH.xsd</DependentUpon>
+    </None>
     <None Include="Resources\home.png" />
   </ItemGroup>
   <ItemGroup>
@@ -260,6 +362,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\support2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

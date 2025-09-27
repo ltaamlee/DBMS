@@ -24,15 +24,5 @@ namespace QLCuaHangNoiThat.Controller
         {
 
         }
-
-        public string Login(string username, string password, string role)
-        {
-            return userService.Login(username, password, role);
-        }
-
-        public bool CheckActive(string username)
-        {
-            return userService.CheckActive(username);
-        }
     }
 }

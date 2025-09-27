@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using QLCuaHangNoiThat.Model;
 
 namespace QLCuaHangNoiThat.Dao
 {
@@ -12,32 +13,49 @@ namespace QLCuaHangNoiThat.Dao
     {
         private string con = "Data Source=.;Initial Catalog=QLKH;Integrated Security=True;TrustServerCertificate=True";
 
-        public string Login(string username, string password, string role)
+
+        public void Register(User user)
         {
             using (SqlConnection conn = new SqlConnection(con))
             {
-                SqlCommand cmd = new SqlCommand("sp_DangNhap", conn);
+                SqlCommand cmd = new SqlCommand("sp_TaoTaiKhoanTheoVaiTro", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
-
-                cmd.Parameters.AddWithValue("@username", username);
-                cmd.Parameters.AddWithValue("@password", password);
-                cmd.Parameters.AddWithValue("@role", role);
+                cmd.Parameters.AddWithValue("@Username", user.Username);
+                cmd.Parameters.AddWithValue("@Password", user.Password);
+                cmd.Parameters.AddWithValue("@VaiTro", user.VaiTro);
+                cmd.Parameters.AddWithValue("@HoTen", user.HoTen);
+                cmd.Parameters.AddWithValue("@Email", user.Email);
+                cmd.Parameters.AddWithValue("@SDT", user.SDT);
+                cmd.Parameters.AddWithValue("@ChucVu", user.ChucVu);
 
                 conn.Open();
-                return cmd.ExecuteScalar()?.ToString();
+                cmd.ExecuteNonQuery();
             }
         }
 
-
-        public bool CheckActive(string username)
+        public User Login(User user)
         {
             using (SqlConnection conn = new SqlConnection(con))
-            using (SqlCommand cmd = new SqlCommand("select TrangThai from [User] where TenDN = @username", conn))
+            using (SqlCommand cmd = new SqlCommand("sp_KiemTraDangNhap", conn))
             {
-                cmd.Parameters.AddWithValue("@username", username);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Username", user.Username);
+                cmd.Parameters.AddWithValue("@Password", user.Password);
                 conn.Open();
-                object result = cmd.ExecuteScalar();
-                return result != null && Convert.ToBoolean(result);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        user.VaiTro = reader["VaiTro"].ToString();
+                        user.HoTen = reader["HoTen"].ToString(); 
+                        user.MaNV = reader["MaNV"].ToString();
+                        return user;
+                    }
+                    else
+                    {
+                        throw new Exception("Sai tên đăng nhập hoặc mật khẩu!");
+                    }
+                }
             }
         }
     }

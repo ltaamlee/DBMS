@@ -22,9 +22,9 @@ namespace QLCuaHangNoiThat.Controller
         public void LoadData()
         {
             CustomerService customerService = new CustomerService();
-            var list = customerService.GetCoupon();
-            dgv_coupon.AutoGenerateColumns = false;
-            dgv_coupon.DataSource = list;
+            //var list = customerService.GetCoupon();
+            //dgv_coupon.AutoGenerateColumns = false;
+            //dgv_coupon.DataSource = list;
         }
         private void UCCoupon_Load(object sender, EventArgs e)
         {

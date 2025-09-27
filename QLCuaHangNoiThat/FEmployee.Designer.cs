@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.side_bar = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_support = new Guna.UI2.WinForms.Guna2Button();
             this.btn_transaction = new Guna.UI2.WinForms.Guna2Button();
             this.btn_coupon = new Guna.UI2.WinForms.Guna2Button();
@@ -36,29 +36,33 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btn_detail = new Guna.UI2.WinForms.Guna2Button();
             this.btn_overview = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1.SuspendLayout();
+            this.side_bar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Panel1
+            // side_bar
             // 
-            this.guna2Panel1.Controls.Add(this.btn_support);
-            this.guna2Panel1.Controls.Add(this.btn_transaction);
-            this.guna2Panel1.Controls.Add(this.btn_coupon);
-            this.guna2Panel1.Controls.Add(this.btn_logout);
-            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2Panel1.Controls.Add(this.btn_detail);
-            this.guna2Panel1.Controls.Add(this.btn_overview);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(377, 1033);
-            this.guna2Panel1.TabIndex = 8;
+            this.side_bar.BackColor = System.Drawing.Color.White;
+            this.side_bar.Controls.Add(this.btn_support);
+            this.side_bar.Controls.Add(this.btn_transaction);
+            this.side_bar.Controls.Add(this.btn_coupon);
+            this.side_bar.Controls.Add(this.btn_logout);
+            this.side_bar.Controls.Add(this.guna2CirclePictureBox1);
+            this.side_bar.Controls.Add(this.btn_detail);
+            this.side_bar.Controls.Add(this.btn_overview);
+            this.side_bar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.side_bar.Location = new System.Drawing.Point(0, 0);
+            this.side_bar.Name = "side_bar";
+            this.side_bar.Size = new System.Drawing.Size(349, 1033);
+            this.side_bar.TabIndex = 8;
             // 
             // btn_support
             // 
             this.btn_support.Animated = true;
             this.btn_support.AutoRoundedCorners = true;
+            this.btn_support.CheckedState.FillColor = System.Drawing.Color.Maroon;
+            this.btn_support.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btn_support.CheckedState.Image = global::QLCuaHangNoiThat.Properties.Resources.support2;
             this.btn_support.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_support.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_support.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -69,15 +73,16 @@
             this.btn_support.HoverState.BorderColor = System.Drawing.Color.Maroon;
             this.btn_support.HoverState.FillColor = System.Drawing.Color.Maroon;
             this.btn_support.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btn_support.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.CM2;
+            this.btn_support.HoverState.Image = global::QLCuaHangNoiThat.Properties.Resources.support2;
+            this.btn_support.Image = global::QLCuaHangNoiThat.Properties.Resources.support;
             this.btn_support.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_support.ImageSize = new System.Drawing.Size(25, 25);
             this.btn_support.IndicateFocus = true;
             this.btn_support.Location = new System.Drawing.Point(35, 571);
             this.btn_support.Name = "btn_support";
-            this.btn_support.Size = new System.Drawing.Size(318, 63);
+            this.btn_support.Size = new System.Drawing.Size(278, 63);
             this.btn_support.TabIndex = 8;
-            this.btn_support.Text = "Chăm sóc";
+            this.btn_support.Text = "CSKH";
             this.btn_support.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // btn_transaction
@@ -100,7 +105,7 @@
             this.btn_transaction.IndicateFocus = true;
             this.btn_transaction.Location = new System.Drawing.Point(35, 371);
             this.btn_transaction.Name = "btn_transaction";
-            this.btn_transaction.Size = new System.Drawing.Size(318, 63);
+            this.btn_transaction.Size = new System.Drawing.Size(278, 63);
             this.btn_transaction.TabIndex = 7;
             this.btn_transaction.Text = "Giao dịch";
             this.btn_transaction.TextOffset = new System.Drawing.Point(10, 0);
@@ -125,7 +130,7 @@
             this.btn_coupon.IndicateFocus = true;
             this.btn_coupon.Location = new System.Drawing.Point(35, 473);
             this.btn_coupon.Name = "btn_coupon";
-            this.btn_coupon.Size = new System.Drawing.Size(318, 63);
+            this.btn_coupon.Size = new System.Drawing.Size(278, 63);
             this.btn_coupon.TabIndex = 6;
             this.btn_coupon.Text = "Ưu đãi";
             this.btn_coupon.TextOffset = new System.Drawing.Point(10, 0);
@@ -150,7 +155,7 @@
             this.btn_logout.IndicateFocus = true;
             this.btn_logout.Location = new System.Drawing.Point(35, 715);
             this.btn_logout.Name = "btn_logout";
-            this.btn_logout.Size = new System.Drawing.Size(318, 63);
+            this.btn_logout.Size = new System.Drawing.Size(278, 63);
             this.btn_logout.TabIndex = 5;
             this.btn_logout.Text = "Đăng xuất";
             this.btn_logout.TextOffset = new System.Drawing.Point(10, 0);
@@ -159,7 +164,7 @@
             // 
             this.guna2CirclePictureBox1.Image = global::QLCuaHangNoiThat.Properties.Resources.logo1;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(140, 30);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(35, 28);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(109, 100);
@@ -188,9 +193,9 @@
             this.btn_detail.IndicateFocus = true;
             this.btn_detail.Location = new System.Drawing.Point(35, 270);
             this.btn_detail.Name = "btn_detail";
-            this.btn_detail.Size = new System.Drawing.Size(318, 63);
+            this.btn_detail.Size = new System.Drawing.Size(278, 63);
             this.btn_detail.TabIndex = 2;
-            this.btn_detail.Text = "Thông tin";
+            this.btn_detail.Text = "Khách hàng";
             this.btn_detail.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // btn_overview
@@ -214,7 +219,7 @@
             this.btn_overview.IndicateFocus = true;
             this.btn_overview.Location = new System.Drawing.Point(35, 177);
             this.btn_overview.Name = "btn_overview";
-            this.btn_overview.Size = new System.Drawing.Size(318, 63);
+            this.btn_overview.Size = new System.Drawing.Size(278, 63);
             this.btn_overview.TabIndex = 0;
             this.btn_overview.Text = "Tổng quan";
             this.btn_overview.TextOffset = new System.Drawing.Point(10, 0);
@@ -224,13 +229,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.side_bar);
             this.Name = "FEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FEmployee";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FEmployee_Load);
-            this.guna2Panel1.ResumeLayout(false);
+            this.side_bar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -238,7 +243,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel side_bar;
         private Guna.UI2.WinForms.Guna2Button btn_support;
         private Guna.UI2.WinForms.Guna2Button btn_transaction;
         private Guna.UI2.WinForms.Guna2Button btn_coupon;

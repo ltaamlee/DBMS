@@ -43,9 +43,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_update = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_cancel = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_exit = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
             this.tt.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_percent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_minpoint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -72,6 +77,9 @@
             // 
             // tt
             // 
+            this.tt.BorderRadius = 10;
+            this.tt.Controls.Add(this.guna2NumericUpDown1);
+            this.tt.Controls.Add(this.label7);
             this.tt.Controls.Add(this.txt_percent);
             this.tt.Controls.Add(this.txt_minpoint);
             this.tt.Controls.Add(this.txt_name);
@@ -88,7 +96,7 @@
             this.tt.ForeColor = System.Drawing.Color.Black;
             this.tt.Location = new System.Drawing.Point(29, 112);
             this.tt.Name = "tt";
-            this.tt.Size = new System.Drawing.Size(919, 325);
+            this.tt.Size = new System.Drawing.Size(966, 325);
             this.tt.TabIndex = 34;
             this.tt.Text = "Thông tin chính sách";
             // 
@@ -99,12 +107,13 @@
             this.txt_percent.BorderRadius = 18;
             this.txt_percent.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_percent.Font = new System.Drawing.Font("Montserrat", 10.2F);
-            this.txt_percent.Location = new System.Drawing.Point(209, 150);
+            this.txt_percent.Location = new System.Drawing.Point(209, 139);
             this.txt_percent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_percent.Name = "txt_percent";
             this.txt_percent.Size = new System.Drawing.Size(114, 39);
             this.txt_percent.TabIndex = 39;
             this.txt_percent.UpDownButtonFillColor = System.Drawing.Color.Maroon;
+            this.txt_percent.UpDownButtonForeColor = System.Drawing.Color.White;
             // 
             // txt_minpoint
             // 
@@ -113,12 +122,13 @@
             this.txt_minpoint.BorderRadius = 18;
             this.txt_minpoint.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_minpoint.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_minpoint.Location = new System.Drawing.Point(574, 150);
+            this.txt_minpoint.Location = new System.Drawing.Point(785, 139);
             this.txt_minpoint.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_minpoint.Name = "txt_minpoint";
             this.txt_minpoint.Size = new System.Drawing.Size(114, 39);
             this.txt_minpoint.TabIndex = 38;
             this.txt_minpoint.UpDownButtonFillColor = System.Drawing.Color.Maroon;
+            this.txt_minpoint.UpDownButtonForeColor = System.Drawing.Color.White;
             // 
             // txt_name
             // 
@@ -224,7 +234,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(404, 150);
+            this.label3.Location = new System.Drawing.Point(627, 154);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(142, 24);
             this.label3.TabIndex = 31;
@@ -235,7 +245,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Montserrat SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(30, 150);
+            this.label1.Location = new System.Drawing.Point(30, 154);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(144, 24);
             this.label1.TabIndex = 30;
@@ -252,18 +262,81 @@
             this.btn_update.FillColor = System.Drawing.Color.Maroon;
             this.btn_update.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold);
             this.btn_update.ForeColor = System.Drawing.Color.White;
-            this.btn_update.Location = new System.Drawing.Point(398, 469);
+            this.btn_update.Location = new System.Drawing.Point(260, 469);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(177, 52);
             this.btn_update.TabIndex = 35;
             this.btn_update.Text = "Cập nhật";
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Animated = true;
+            this.btn_cancel.AutoRoundedCorners = true;
+            this.btn_cancel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cancel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cancel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_cancel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_cancel.FillColor = System.Drawing.Color.Maroon;
+            this.btn_cancel.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_cancel.ForeColor = System.Drawing.Color.White;
+            this.btn_cancel.Location = new System.Drawing.Point(451, 469);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(124, 52);
+            this.btn_cancel.TabIndex = 40;
+            this.btn_cancel.Text = "Hủy";
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.Animated = true;
+            this.btn_exit.AutoRoundedCorners = true;
+            this.btn_exit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_exit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_exit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_exit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_exit.FillColor = System.Drawing.Color.Maroon;
+            this.btn_exit.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_exit.ForeColor = System.Drawing.Color.White;
+            this.btn_exit.Location = new System.Drawing.Point(593, 469);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(124, 52);
+            this.btn_exit.TabIndex = 41;
+            this.btn_exit.Text = "Thoát";
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            // 
+            // guna2NumericUpDown1
+            // 
+            this.guna2NumericUpDown1.AutoRoundedCorners = true;
+            this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2NumericUpDown1.BorderRadius = 18;
+            this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2NumericUpDown1.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2NumericUpDown1.Location = new System.Drawing.Point(488, 139);
+            this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
+            this.guna2NumericUpDown1.Size = new System.Drawing.Size(114, 39);
+            this.guna2NumericUpDown1.TabIndex = 41;
+            this.guna2NumericUpDown1.UpDownButtonFillColor = System.Drawing.Color.Maroon;
+            this.guna2NumericUpDown1.UpDownButtonForeColor = System.Drawing.Color.White;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Montserrat SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(401, 154);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(81, 24);
+            this.label7.TabIndex = 40;
+            this.label7.Text = "Số tiền: ";
             // 
             // FCoupon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(977, 563);
+            this.ClientSize = new System.Drawing.Size(1007, 743);
+            this.Controls.Add(this.btn_exit);
+            this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tt);
             this.Controls.Add(this.btn_update);
@@ -273,6 +346,7 @@
             this.tt.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_percent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_minpoint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +369,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button btn_update;
+        private Guna.UI2.WinForms.Guna2Button btn_cancel;
+        private Guna.UI2.WinForms.Guna2Button btn_exit;
+        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown1;
+        private System.Windows.Forms.Label label7;
     }
 }
